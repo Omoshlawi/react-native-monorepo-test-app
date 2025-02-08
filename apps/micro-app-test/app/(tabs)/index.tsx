@@ -4,7 +4,7 @@ import { HelloWave } from "@/components/HelloWave";
 import ParallaxScrollView from "@/components/ParallaxScrollView";
 import { ThemedText } from "@/components/ThemedText";
 import { ThemedView } from "@/components/ThemedView";
-import { InputDecorator } from "@monorepo/core-components";
+import { InputDecorator, Skeleton } from "@monorepo/core-components";
 import { Extensions } from "@monorepo/core-extensions";
 
 export default function HomeScreen() {
@@ -20,6 +20,7 @@ export default function HomeScreen() {
     >
       <InputDecorator />
       <Extensions />
+      <Skeleton style={{ height: 50, width: "100%" }} />
       <ThemedView style={styles.titleContainer}>
         <ThemedText type="title">Welcome!</ThemedText>
         <HelloWave />

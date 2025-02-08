@@ -1919,6 +1919,7 @@ __metadata:
     "@types/react": "npm:~18.3.12"
     "@types/react-test-renderer": "npm:^18.3.0"
     expo: "npm:~52.0.28"
+    expo-linear-gradient: "npm:~14.0.1"
     jest: "npm:^29.2.1"
     jest-expo: "npm:~52.0.3"
     react: "npm:^18.3.1"
@@ -1931,6 +1932,7 @@ __metadata:
     react: ^18.3.1
     react-dom: ^18.3.1
     react-native: ^0.76.6
+    react-native-reanimated: ~3.16.1
   languageName: unknown
   linkType: soft
 
@@ -4589,6 +4591,17 @@ __metadata:
     expo: "*"
     react: "*"
   checksum: 10c0/2ce4c1da62d143432c11f1ad5a3fe198ba6b57b9864b4463b1245878301bfe48ecf0142bc15c456f165e54e1fb1c74b26feffa69cccaab4f84e6b915b5f0fba7
+  languageName: node
+  linkType: hard
+
+"expo-linear-gradient@npm:~14.0.1":
+  version: 14.0.2
+  resolution: "expo-linear-gradient@npm:14.0.2"
+  peerDependencies:
+    expo: "*"
+    react: "*"
+    react-native: "*"
+  checksum: 10c0/0c8c6af9d2f686315b67217bab3f601b260e470097399b5e86f10266e1a7ba26445993a45554da3440ed952b4efc53a4fd1a2e0d70d7f02053f81942c2a2c7f1
   languageName: node
   linkType: hard
 
